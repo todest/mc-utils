@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "mcutils",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "MC Utils",
+  "description": "This is minecraft utils mod!",
   "authors": [
-    "Me!"
+    "BlockGYH"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://blog.todest.cn",
+    "sources": "https://github.com/todest/mc-utils"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/mcutils/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "cn.todest.mcutils.McUtilsMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "mcutils.mixins.json"
   ],
 
   "depends": {
